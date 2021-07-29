@@ -1,6 +1,7 @@
 #!/bin/bash
 
 wget https://github.com/prometheus/node_exporter/releases/download/v1.1.2/node_exporter-1.1.2.linux-amd64.tar.gz
+
 tar -xvzf node_exporter-1.1.2.linux-amd64.tar.gz
 
 useradd -rs /bin/false node_exporter
